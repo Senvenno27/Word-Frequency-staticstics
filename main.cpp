@@ -4,7 +4,6 @@
 #include <string>
 #include <string.h>
 #include <sstream>
-#define lineMaxWord 200
 
 struct Record
 {

@@ -32,8 +32,7 @@ void WordStatic::read_file(const std::string &filename)
 		std::cout << "open readfile failed" << std::endl;
 		return;
 	}
-	int count = 10000;
-	while(getline(ifs,str) && count--)
+	while(getline(ifs,str))
 	{
 		std::stringstream ss(str);
 		std::string word;
